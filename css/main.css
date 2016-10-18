@@ -6,7 +6,7 @@
 .block { padding: 5% 10px 2%; display: inline-block; border: 1px solid #ccc; background-color: #ecf0f1; }
 .block_inner_1 ul { display: table; margin: 20px auto; }
 .block_inner_1 ul .form-group { margin-bottom: 0px; }
-.ad_image{margin: 10px auto;display: table;}
+.adimage{margin: 10px auto;display: table;}
 .block_inner_2 ul li { padding: 10px 0px; }
 .col-condensed { padding-left: 0px; padding-right: 0px; }
 
