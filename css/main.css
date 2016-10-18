@@ -1,24 +1,51 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.navbar_custom { background: #06F; }
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus { background-color: #fff; }
-.block { padding: 5% 10px 2%; display: inline-block; border: 1px solid #ccc; background-color: #ecf0f1; }
+
+/*body h1, h2, h3, h4, h5, h6, p { font-family: Georgia, "Times New Roman", Times, serif; }
+body p { font-family: Arial, Helvetica, sans-serif; }*/
+.navbar_custom { background: #fff; border-bottom: 1px solid #ccc; }
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { margin-top: 1.33em; }
+h5 { font-size: .83em; }
+h6 { font-size: .67em; }
+.navbar-inverse .navbar-brand { padding: 0px; }
+.navbar-inverse .navbar-nav > li { border-left: 1px solid #fff; }
+.navbar-inverse .navbar-nav > li:first-child { border: none; }
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus { background-color: #fff; color: #000; }
+.navbar-inverse .navbar-nav > li > a { padding: 5px 10px; margin: 0px 5px; border-radius: 20px; }
+.navbar-inverse .navbar-nav { filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#06F', endColorstr='#06B'); background: -webkit-gradient(linear, right top, left bottom, from(#06F), to(#06B)); background: -moz-linear-gradient(right, #06F, #06A); border-radius: 5px; margin: 20px 0px 20px 0px; padding: 10px; }
+.block {     padding: 8% 10px 2%;display: inline-block; background-color: #fff; }
 .block_inner_1 ul { display: table; margin: 20px auto; }
+.block_inner_1 h1 {    margin: 0px; color: #009; }
+.block_inner_1 p { color: #444444;  }
 .block_inner_1 ul .form-group { margin-bottom: 0px; }
-.adimage{margin: 10px auto;display: table;}
-.block_inner_2 ul li { padding: 10px 0px; }
+.block_drop{    margin: 15px 0px;}
+.block_drop a{width: 100%;}
+.adimage { margin: 10px auto; display: table; }
+.block_inner_2 ul{padding: 0px 15%;}
+.block_inner_2 ul li { text-align: left; padding: 10px 0px; position: relative;}
+.block_inner_2 ul li:before {
+	    position: absolute;
+    content: '\f101';
+    font-family: FontAwesome;
+    left: -15px;
+    display: inline-block;
+    top: 15px;
+}
+.block_inner_2 h4 {text-align: left;
+    padding: 15px;
+    color: #0066df;
+    border-bottom: 3px solid #0066df;
+    text-transform: uppercase;
+    letter-spacing: 1px;}
+.block_inner_2 a {    liNe-height: 30px; color: #03F; font-family: Arial, Helvetica, sans-serif; border-bottom: 1px dashed #CC0001;    /* margin-bottom: 10px; */ padding-bottom: 5px; }
+.block_inner_2 a:hover, .block_inner_2 a:focus { text-decoration: none; }
 .col-condensed { padding-left: 0px; padding-right: 0px; }
-
-footer{    background: #444444;    padding: 25px;}
-footer ul{
-        display: table;
-    margin: 5px auto!important;
-}
-footer ul li a{color: #fff;}
-footer ul li{
-
-    border-right: 1px solid #fff;}
-footer ul li:last-child{
-    border: none;
-}
+footer { background: #444444; padding: 25px; }
+footer ul { display: table; margin: 5px auto !important; }
+footer ul li a { color: #fff; }
+footer ul li { border-right: 1px solid #fff; }
+footer ul li:last-child { border: none; }
